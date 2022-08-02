@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+$outline: rgba(#fff, .4);
+
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: Mr Dafoe, Exo, sans-serif
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('./AdobeStock_291625964.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  perspective: 700px;
+  font-size: clamp(10px, 2vw, 20px);
+}
+
+
+
+h4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 110px;
+  font-family: 'Mr Dafoe';
+  font-size: 35px;
+  margin: 0;
+  color: white;
+  background-color:radial-gradient(rgba(#7600bf, 0.5) 0%, transparent 70%), linear-gradient(#0b161e 40%, #202076 70%);
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  letter-spacing: 0.03em;
+  transform: rotate(-7deg)
+  
+}
+
+h5 {
+  font-family: 'Mr Dafoe';
+  margin: 0;
+  font-size: 15px;
+  margin-top: -0.6em;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+  transform: rotate(-7deg);
+}
+
